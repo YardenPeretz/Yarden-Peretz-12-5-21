@@ -1,11 +1,12 @@
-#Filter
-     <?php
 
-     function  filterNumbersFromArray (array &$arr)  :  void
-     {
-            //Write the code that goes here
-     }
- 
-     $arr = [1,  ‘a’ ,  ‘b’ ,  2]
-     filterNumbersFromArray ($arr) ;
-      print_r ( array_values ( $arr ) ) ;
+     <?php
+       $arr = [1,2,1,2,3,3,4,4,5,5,6,6];
+       function  filterNumbersFromArray(array $arr): void {
+
+              // array_unique() checking for duplicates
+              $result = array_unique($arr);
+              print_r($result);
+        
+       }
+
+       filterNumbersFromArray($arr);

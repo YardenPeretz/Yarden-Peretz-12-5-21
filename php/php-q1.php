@@ -14,7 +14,7 @@ function unique_names($arr1, $arr2, $result){
         array_push($result, $index);
     }
     
-    // array_unique() checks for duplicates
+    // array_unique() checking for duplicates
     print_r(array_unique($result)); 
 }
 unique_names($arr1, $arr2, $result);
