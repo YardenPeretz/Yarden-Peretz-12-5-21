@@ -13,7 +13,8 @@ function unique_names($arr1, $arr2, $result){
     foreach ($arr2 as $index) {
         array_push($result, $index);
     }
-
-    print_r(array_unique($result));
+    
+    // array_unique() checks for duplicates
+    print_r(array_unique($result)); 
 }
 unique_names($arr1, $arr2, $result);
