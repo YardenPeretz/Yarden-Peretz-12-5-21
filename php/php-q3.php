@@ -1,11 +1,13 @@
-#Filter
-     <?php
 
-     function  filterNumbersFromArray (array &$arr)  :  void
-     {
-            //Write the code that goes here
-     }
- 
-     $arr = [1,  ‘a’ ,  ‘b’ ,  2]
-     filterNumbersFromArray ($arr) ;
-      print_r ( array_values ( $arr ) ) ;
+<?php
+$arr = [1,'b','a',2,'c','d',5,'z',9];
+
+function filterNumbersFromArray($arr): void{
+
+             // $arr returns nothing but numbers using array_filter
+             $arr = array_filter($arr, 'is_numeric');              
+             print_r($arr);
+       
+}
+
+filterNumbersFromArray($arr);
