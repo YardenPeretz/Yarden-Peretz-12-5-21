@@ -1,4 +1,1 @@
-TABLE employees
-   id INTEGER NOT NULL PRIMARY KEY
-   mgrId INTEGER REFERENCES employees (id)
-   name VARCHAR (30) NOT NULL
+SELECT country FROM `companies` GROUP BY country ORDER BY country;
