@@ -1,0 +1,2 @@
+a. wordpress actions are specifically made for themes.
+e. the function add_function is used to hook a function to an action.
