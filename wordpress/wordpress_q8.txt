@@ -1,4 +1,4 @@
 a. inside the file wp-content/plugins/testdome.php
 
-## as far as i know, and maybe its not true. name should be changed before installing the plugin.
+
    
