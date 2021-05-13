@@ -1,0 +1,3 @@
+b. front-page.php 
+
+in case front-page.php does not exist, wordpress will serve index.php on the homepage.
