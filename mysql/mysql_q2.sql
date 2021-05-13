@@ -1,8 +1,4 @@
-TABLE fsia
-   companyName VARCHAR (30) NOT NULL PRIMARY KEY
-   marketCapitalization FLOAT NOT NULL
-
-TABLE fsib
-   companyName VARCHAR (30) NOT NULL PRIMARY KEY
-   sharePrice FLOAT NOT NULL
-   shareOutstanding  INTEGER NOT NULL
+UPDATE menu 
+   SET price = (price * 1.1) 
+   WHERE category = 'Soups' 
+   OR category = 'Salads'
