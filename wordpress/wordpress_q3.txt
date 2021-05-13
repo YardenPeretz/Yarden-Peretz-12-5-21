@@ -1,0 +1,3 @@
+b. use post ids. Specify posts to retrieve. 
+c. Display post by id
+e. tax_query (array) – use taxonomy parameters
