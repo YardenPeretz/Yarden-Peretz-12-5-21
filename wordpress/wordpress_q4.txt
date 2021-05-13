@@ -1,0 +1,1 @@
+a. inside the folder names css, which is located inside the themes folder.
