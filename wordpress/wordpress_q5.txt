@@ -1,0 +1,2 @@
+b. database table prefix
+c. database password, also including db name and username.
