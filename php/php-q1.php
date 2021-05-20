@@ -6,7 +6,6 @@ $result = [];
 
 function unique_names($arr1, $arr2, $result){
 
-    // iterate over arr1 and arr2 and pushing values to result array
     foreach ($arr1 as $index) {
         array_push($result, $index);
     }
